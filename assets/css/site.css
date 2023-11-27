@@ -1,0 +1,14 @@
+body {
+    padding-top:105px;
+
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.footer {
+    min-height:125px;
+    vertical-align:middle;
+    font-size: 10px;
+}
