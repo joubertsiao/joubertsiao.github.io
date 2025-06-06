@@ -1,16 +1,17 @@
 body {
-    background-color: #3B3B1A;
-    color: #eee; 
+    background-color: #504B38;
+    color: #F8F3D9; 
     margin:20px 0;
     scroll-behavior: smooth;
 }
 
 .btn-success, .btn-success:hover, .btn-success:visited{
     background-color: #8c8f03 !important;
+    color: #3B3B1A;
 }
 
 .section {
-    margin:105px 0 25px 0;
+    margin:105px 0 25px 15px;
 }
 
 
