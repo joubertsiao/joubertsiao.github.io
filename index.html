@@ -9,36 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div id="entire-body">
-        
-        <div class="container-fluid pt-5 pb-5">
-            <div class="row justify-content-center align-items-center">
-                
-                <div class="col-sm-4 text-end">
-                    <h1 class="dm-serif-text-regular-italic display-1">Hi, I am Jojo Siao.</h1>
-                    <p class="pb-2">I am a Motovlogger and a full-time Pythonista.</p>
-                    <p>
-                        <a href="blog/index.html" class="btn btn-success">Read my blog articles here.</a>
-                    </p>
-                    <p>
-                         
-                        <ul class="list-inline">
-                            <li class="list-inline-item">Follow me on:</li>
-                            <li class="list-inline-item"><a href="https://www.facebook.com/jojosiaotwowheels" class="bi bi-facebook"></a></li>
-                            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC1OkktfmJPOqAxAGsWTilUw" class="bi bi-youtube"></a></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com/jojostwowheels/" class="bi bi-instagram"></a></li>
-                        </ul>
-                    </p>            
-                </div>
-                <div class="col-sm-4 align-middle">
-                    <img src="assets/images/ako.png" width="415" height="415" class="img-fluid align-items-center" alt="ako yan.">
-                </div>
+    <div id="head" class="container-fluid pt-5 pb-5 section">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-4 text-end">
+                <h1 class="dm-serif-text-regular-italic display-1">Hi, I am Jojo Siao.</h1>
+                <p class="pb-2">I am a Motovlogger and a full-time Pythonista.</p>
+                <p><a href="#blogs" class="btn btn-success">Click here to go to my blogs</a></p>
+                <p> <ul class="list-inline">
+                        <li class="list-inline-item">Follow me on:</li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/jojosiaotwowheels" class="bi bi-facebook"></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC1OkktfmJPOqAxAGsWTilUw" class="bi bi-youtube"></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/jojostwowheels/" class="bi bi-instagram"></a></li>
+                    </ul>
+                </p>            
+            </div>
+            <div class="col-sm-4 align-middle">
+                <img src="assets/images/ako.png" width="415" height="415" class="img-fluid align-items-center" alt="ako yan.">
             </div>
         </div>
-         
-    </div>       
+    </div>
+    
+    <div id="blogs" class="container-fluid pt-5 pb-5 section">
+        <div class="row pt-2 justify-content-center align-items-center">
+            <div class="col-sm-2 sidebars">
+                <img id="my_photo" src="assets/images/ako_blogger.png" class="img-fluid" alt="Hi! It's just me!">
+            </div>
+            <div class="col-sm-5 pt-5">
+                <h1>Latest Posts</h1>
+                <ul class="list-unstyled">
+                <li class="p-2 pb-5">
+                    <div class="row pt-4">
+                        <div class="col-sm-2">
+                            <div class="publish-date  text-center">
+                                <span class="article-month">JAN</span>
+                                <span class="article-day">1</span>
+                                <span class="article-year">2023</span>
+                            </div>
+                        </div>    
+                        <div class="col-sm-10">
+                            <h1 class="article-item"><a class="roboto-serif-article-title" href="blog/my_first_article.html">My First Article</a></h1>
+
+                            <p>Hello, everyone!</p>
+                            <p>Welcome to my blog site!</p>
+
+                            <p>I've decided to revive my blog, where I can write about various topics, including the Python programming language, 
+                                my passion for motovlogging and long rides in the Philippines, and lastly, about living a stoic way of life.</p>
+
+                            <p>You can go to my Youtube channel to watch all my videos and maybe subscribe to my channel as well, if you haven't already. 
+                                You can also follow me on Facebook, and on Instagram.</p>
+
+                            <p>During the daytime, I work as a full-time Python/Django Developer in a multinational company.</p>
+
+                            <p>I developed an interest in Stoicism because it helps me control my senses and limit the sources of my anxieties. 
+                                Therefore, it is likely that I will write something about Stoicism.</p>
+                                                        
+                        </div>
+                    </div>    
+                </li>
+                
+                </ul>
+                <div class="footer">JOJOSIAO.COM &copy; 2025</div>
+            </div>
+            <div class="col-sm-2 pt-4 sidebars">
+                
+            </div>
+        </div>
+
+    </div>   
+
 </body>
 </html>

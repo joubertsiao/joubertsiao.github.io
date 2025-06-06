@@ -2,15 +2,29 @@ body {
     background-color: #3B3B1A;
     color: #eee; 
     margin:20px 0;
+    scroll-behavior: smooth;
 }
 
 .btn-success, .btn-success:hover, .btn-success:visited{
     background-color: #8c8f03 !important;
 }
 
-#entire-body {
-    margin-top:105px;
+.section {
+    margin:105px 0 25px 0;
 }
+
+
+.sidebars{
+    margin-top:125px;
+}
+
+
+a,a:hover, a:visited {
+    color: #19f7b4;
+    text-decoration:none;
+}
+
+
 
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
@@ -24,13 +38,54 @@ body {
     font-style: italic;
 }
 
+.roboto-serif-article-title {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-size:25px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+.publish-date {
+    padding:8px;
+    width:85px;
+    height:85px;
+    background-color: #968f0a;
+    display:block;
+    font-size:16px;
+    font-weight:bolder;
+    border-radius: 18px;
+    line-height: 1.1;
+}
+
+.publish-date >  span {
+    margin:0 auto;
+    display: block;
+}
+
+.article-item {
+    font-size:16px;
+    font-weight:bolder;
+    line-height: 3.5em;
+}
+
+.article-month{
+    font-size:20px;
+}
+
+.article-day{
+    font-size:18px;
+}
+
+.article-year{
+    font-size:22px;
+}
 
 .footer {
     text-align: center;
     font-size:9px;
     color:#FFF;
-}
-
-border-white {
-    border-color:#fff;
 }
