@@ -1,14 +1,107 @@
 body {
-    padding-top:105px;
+    background-color: #504B38;
+    color: #F8F3D9; 
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.btn-success, .btn-success:hover, .btn-success:visited{
+    background-color: #8c8f03 !important;
+    color: #3B3B1A;
+}
+
+.section {
+    margin:125px 0 15px 0;
+}
+
+
+.sidebars{
+    margin-top:125px;
+}
+
+
+a,a:hover, a:visited {
+    color: #19f7b4;
+    text-decoration:none;
+}
+
+
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-serif-article-title {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-size:25px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+.roboto-serif-article-archive {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-size:20px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "GRAD" 0;
+}
+
+.publish-date {
+    padding:8px;
+    width:85px;
+    height:85px;
+    background-color: #968f0a;
+    display:block;
+    font-size:16px;
+    font-weight:bolder;
+    border-radius: 18px;
+    line-height: 1.1;
+}
+
+.publish-date >  span {
+    margin:0 auto;
+    display: block;
+}
+
+#archives {
 
 }
 
-.kanit {
-    font-family: 'Kanit', sans-serif;
+.article-item {
+    font-size:16px;
+    font-weight:bolder;
+    line-height: 3.5em;
+}
+
+.article-month{
+    font-size:20px;
+}
+
+.article-day{
+    font-size:18px;
+}
+
+.article-year{
+    font-size:22px;
 }
 
 .footer {
-    min-height:125px;
-    vertical-align:middle;
-    font-size: 10px;
+    text-align: center;
+    font-size:9px;
+    color:#FFF;
 }
